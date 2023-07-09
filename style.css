@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.intro {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  text-align: justify;
+  font-family: poppins;
+}
+nav {
+  background-color: gray;
+  padding: 20px 20%;
+}
+
+section {
+  padding: 20px 10%;
+}
+h1 {
+  padding: 20px 10%;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  height: 300px;
+}
+
+nav ul li a:hover {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+header {
+  background: url("NICE-ONE.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+section {
+  display: flex;
+}
+
+section main {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  width: 60%;
+  border: 1px solid;
+  padding: 20px;
+  margin-right: 30px;
+  border-radius: 8px;
+}
+
+section main article {
+  /* border: 1px solid; */
+  padding: 20px;
+  margin-bottom: 0px;
+  margin-bottom: 30px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+section main article p {
+}
+
+footer {
+  color: white;
+  padding: 20px 10%;
+  background-color: black;
+  text-align: center;
+}
+
+section aside ul li h3 {
+}
+
+section aside ul li:last-child {
+}
+
+section aside form {
+  /* border: 1px solid black; */
+}
+
+section aside {
+  width: 40%;
+  margin-left: 30px;
+}
+section aside ul {
+  /* border: 1px solid black; */
+  margin-bottom: 30px;
+}
+
+section aside form input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+section aside form input:focus {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: rgb(241, 234, 234);
+  border: 0px;
+}
+
+#submit {
+  width: 100%;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: coral;
+  border-radius: 12px;
+  border: none;
+}
+
+section aside div li {
+  list-style-type: none;
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-bottom: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+section aside div li:hover {
+  list-style-type: none;
+  /* border: 1px solid black; */
+  padding: 5px;
+  margin-bottom: 1px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgb(77, 77, 88);
+  /* transition: 0.5s; */
+}
+
+section aside div li a {
+  text-decoration: none;
+  color: black;
+}
+section aside div li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+aside div {
+  /* border: 1px solid black; */
+  padding: 20px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+aside form {
+  /* border: 1px solid black; */
+  margin-top: 20px;
+  padding: 20px;
+  box-shadow: 0 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+
+h3 {
+  padding: 15px;
+}
+
+#footer-bottom {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
